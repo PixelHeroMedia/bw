@@ -10,7 +10,7 @@ const LP_CONTRACT_ADDRESS = "0x3bFA4769FB09eefC5a80d6E87c3B9C650f7Ae48E"; //sep
 const WETH_CONTRACT_ADDRESS = "0xfff9976782d46cc05630d1f6ebab18b2324d6b14"; // sep
 const DEV_WALLET = "0x1a620be9A3f160f781b53709509BF643987a3297";
 const LIQUID = "0xe057b5fb811f555ad85def53c0dc032ae283c185"; //the lp holding token address
-const BUY_AMOUNT = 300000000000000;
+const BUY_AMOUNT = 300000000000000; //0.0003e sample.
 
 const BATCHER = require('./build/contracts/Batcher.json');
 const BATCHER_ABI = BATCHER.abi;
@@ -23,7 +23,7 @@ const WETH_ABI = require('./weth.json');
 
 async function main() {
   const provider = new HDWalletProvider(
-   MNEMONIC,"wss://eth-sepolia.g.alchemy.com/v2/"
+   MNEMONIC,"wss://eth-sepolia.g.alchemy.com/v2/Qn5rx_pBefC4dj93PNKp2H7PE0Imx4O7"
   );
   const web3Instance = new web3(provider);
 

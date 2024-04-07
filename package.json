@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.1",
+    "@openzeppelin/contracts-upgradeable": "^4.8.1",
+    "@openzeppelin/truffle-upgrades": "^1.17.0",
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.11",
+    "node": "^18.13.0",
+    "truffle": "^5.7.3",
+    "truffle-plugin-verify": "^0.6.1"
+  }
+}
